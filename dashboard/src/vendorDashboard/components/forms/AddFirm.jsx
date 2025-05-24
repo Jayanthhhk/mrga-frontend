@@ -90,7 +90,7 @@ const AddFirm = () => {
           window.location.reload()
 
    } catch (error) {
-      console.error("failed to add Firm")
+      console.error("failed to add Firm",error)
       alert("failed to add Firm")
    } finally {
     setLoading(false); 
